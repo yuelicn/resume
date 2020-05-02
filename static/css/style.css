@@ -24,6 +24,7 @@
 .icon-playlistadd:before { content: "\ecae"; }
 .icon-delete:before { content: "\e61b"; }
 .icon-trophy:before { content: "\e80b"; }
+.icon-favorite-outline:before { content: "\eb4d"; }
 
 span {
     display: inline-block;
@@ -209,7 +210,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
 
     width: 1050px;
-    height: 1550px;
+    height: 100%;
     background-color: white;
 
 }
@@ -225,7 +226,7 @@ progress::-moz-progress-value {
 .main {
     
     position: relative;;
-    margin-left: 110px;
+    margin-left: 50px;
     min-height: 100%;
     margin-right: 50px;
     padding: 50px;
