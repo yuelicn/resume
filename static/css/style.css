@@ -81,6 +81,9 @@ h1, h2, h3, h4, h5 {
 .right-list li {
     margin-bottom: 12px;
 }
+.stl_03 {
+    position: relative;
+}
 
 
 hr {
@@ -213,9 +216,8 @@ progress::-moz-progress-value {
 
 .side {
     position: absolute;
-    width: 360px;
+
     height: 100%;
-    background-color: whitesmoke;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -223,9 +225,10 @@ progress::-moz-progress-value {
 .main {
     
     position: relative;;
-    margin-left: 360px;
+    margin-left: 110px;
     min-height: 100%;
-    padding: 20px;
+    margin-right: 50px;
+    padding: 50px;
 
 }
 
